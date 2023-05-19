@@ -13,7 +13,7 @@ export const Header = () => {
     <div className={styles.header}>
       <div className={styles.logo}>
         <Link to={ROUTES.HOME}>
-          <img src={LOGO} />
+          <img src={LOGO} alt="" />
         </Link>
       </div>
 
