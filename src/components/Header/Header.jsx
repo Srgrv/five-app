@@ -16,6 +16,7 @@ export const Header = () => {
           <img src={LOGO} />
         </Link>
       </div>
+
       <div className={styles.info}>
         <div className={styles.user}>
           <div
@@ -24,6 +25,7 @@ export const Header = () => {
           />
           <div className={styles.username}>Guest</div>
         </div>
+
         <form className={styles.form}>
           <div className={styles.icon}>
             <svg className="icon">
@@ -42,6 +44,7 @@ export const Header = () => {
           </div>
           {/* <div className={styles.box}></div> */}
         </form>
+
         <div className={styles.account}>
           <Link to={ROUTES.HOME} className={styles.favourites}>
             <svg className={styles["icon-fav"]}>
